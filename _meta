@@ -1,0 +1,11 @@
+<package project="Mer:Trunk:Base" name="byacc">
+  <title>Berkeley Yacc, a parser generator</title>
+  <description>Byacc (Berkeley Yacc) is a public domain LALR parser generator which
+is used by many programs during their build process.
+
+If you are going to do development on your system, you will want to install
+this package.
+
+</description>
+  <url>http://invisible-island.net/byacc/byacc.html</url>
+</package>
