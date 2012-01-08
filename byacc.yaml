@@ -1,0 +1,22 @@
+Name: byacc
+Summary: Berkeley Yacc, a parser generator
+Version: 1.9.%{byaccdate}
+Release: 1
+Group: Development/Tools
+License: Public Domain
+URL: http://invisible-island.net/byacc/byacc.html
+Sources:
+    - ftp://invisible-island.net/byacc/byacc-%{byaccdate}.tgz
+Description: |
+    Byacc (Berkeley Yacc) is a public domain LALR parser generator which
+    is used by many programs during their build process.
+    
+    If you are going to do development on your system, you will want to install
+    this package.
+
+Configure: configure
+ConfigOptions:
+    - --disable-dependency-tracking
+Builder: make
+SetupOptions: "-q -n %{name}-%{byaccdate}"
+Check: yes
