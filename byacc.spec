@@ -15,6 +15,7 @@ License:    Public Domain
 URL:        http://invisible-island.net/byacc/byacc.html
 Source0:    ftp://invisible-island.net/byacc/byacc-%{byaccdate}.tgz
 Source100:  byacc.yaml
+Patch0:     byacc-aarch64.patch
 
 
 %description
@@ -29,6 +30,7 @@ this package.
 
 %prep
 %setup -q -n %{name}-%{byaccdate}
+%patch0 -p1
 
 # >> setup
 # << setup
