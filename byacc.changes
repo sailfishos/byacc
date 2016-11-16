@@ -1,3 +1,7 @@
+* Wed Nov 16 2016 Andrew Branson <andrew.branson@jollamobile.com> - 1.9.20160606
+- Update to 20160606, also fixes config for aarch64
+- Contributes JB#36790
+
 * Mon Feb 17 2014 Oleg Girko <oleg.girko@jollamobile.com> - 1.9.20111219
 - Add aarch64 support
 
