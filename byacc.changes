@@ -1,3 +1,6 @@
+* Fri Dec 15 2023 Matti Lehtimäki <matti.lehtimaki@jolla.com> - 2.0.20230521
+- Update to 20230521. Major version is now 2.0. JB#61285
+
 * Wed Nov 16 2016 Andrew Branson <andrew.branson@jollamobile.com> - 1.9.20160606
 - Update to 20160606, also fixes config for aarch64
 - Contributes JB#36790
